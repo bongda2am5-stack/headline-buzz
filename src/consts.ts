@@ -1,5 +1,13 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+// Global site settings
 
-export const SITE_TITLE = "Astro Blog";
-export const SITE_DESCRIPTION = "Welcome to my website!";
+export const SITE_TITLE = "Headline Buzz";
+export const SITE_DESCRIPTION =
+	"Sports, TV and streaming, celebrity news and crime and justice, explained clearly with sources you can check.";
+export const CONTACT_EMAIL = "biz.niri@gmail.com";
+
+export const CATEGORIES: Record<string, string> = {
+	sports: "Sports",
+	"tv-streaming": "TV & Streaming",
+	celebrity: "Celebrity",
+	"crime-justice": "Crime & Justice",
+};
