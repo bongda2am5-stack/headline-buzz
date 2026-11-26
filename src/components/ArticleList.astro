@@ -1,0 +1,66 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import FormattedDate from './FormattedDate.astro';
+import { CATEGORIES } from '../consts';
+
+interface Props {
+	posts: CollectionEntry<'blog'>[];
+	emptyText?: string;
+}
+
+const { posts, emptyText = 'New articles are on the way. Check back soon.' } = Astro.props;
+---
+
+{
+	posts.length === 0 ? (
+		<p>{emptyText}</p>
+	) : (
+		<ul class="article-list">
+			{posts.map((post) => (
+				<li>
+					<a href={'/blog/' + post.id + '/'}>
+						{post.data.heroImage && (
+							<img width={720} height={360} src={post.data.heroImage} alt="" loading="lazy" />
+						)}
+						<h3>{post.data.title}</h3>
+					</a>
+					<p class="meta">
+						<a href={'/category/' + post.data.category + '/'}>{CATEGORIES[post.data.category]}</a> ·{' '}
+						<FormattedDate date={post.data.pubDate} />
+					</p>
+					<p class="excerpt">{post.data.description}</p>
+				</li>
+			))}
+		</ul>
+	)
+}
+<style>
+	.article-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.article-list li {
+		padding: 1.25em 0;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	.article-list a {
+		text-decoration: none;
+	}
+	.article-list img {
+		margin-bottom: 0.5rem;
+		border-radius: 12px;
+	}
+	.article-list h3 {
+		font-size: 1.4em;
+		margin: 0 0 0.25em 0;
+	}
+	.meta {
+		color: rgb(var(--gray));
+		font-size: 0.85em;
+		margin: 0 0 0.5em 0;
+	}
+	.excerpt {
+		margin: 0;
+	}
+</style>
