@@ -1,0 +1,19 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE_TITLE, CONTACT_EMAIL } from '../consts';
+---
+
+<Page title="Contact Us" description={'How to reach the ' + SITE_TITLE + ' team.'}>
+	<p>We read every message. The best way to reach us is by email:</p>
+	<p>
+		<strong><a href={'mailto:' + CONTACT_EMAIL}>{CONTACT_EMAIL}</a></strong>
+	</p>
+
+	<h2>What you can write to us about</h2>
+	<ul>
+		<li><strong>News tips:</strong> share a story we should look into, with any public sources you have.</li>
+		<li><strong>Corrections:</strong> tell us which article and what is wrong. See our <a href="/about/">editorial policy</a>.</li>
+		<li><strong>Image or copyright concerns:</strong> include the article link and proof of ownership.</li>
+		<li><strong>Business inquiries:</strong> partnerships and advertising questions.</li>
+	</ul>
+</Page>
