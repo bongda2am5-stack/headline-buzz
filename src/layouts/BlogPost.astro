@@ -4,15 +4,17 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
+import { SITE_TITLE, CATEGORIES } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, heroImageCredit, category } =
+	Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title + ' | ' + SITE_TITLE} description={description} image={heroImage} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -21,12 +23,18 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.hero-image {
 				width: 100%;
+				text-align: center;
 			}
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
+			}
+			.credit {
+				font-size: 0.75em;
+				color: rgb(var(--gray));
+				margin-top: 0.5em;
 			}
 			.prose {
 				width: 720px;
@@ -39,10 +47,21 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				margin-bottom: 1em;
 				padding: 1em 0;
 				text-align: center;
-				line-height: 1;
+				line-height: 1.1;
 			}
 			.title h1 {
 				margin: 0 0 0.5em 0;
+				font-size: 2.441em;
+			}
+			.kicker {
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				font-size: 0.75em;
+				font-weight: 700;
+				margin-bottom: 0.75em;
+			}
+			.kicker a {
+				text-decoration: none;
 			}
 			.date {
 				margin-bottom: 0.5em;
@@ -58,22 +77,30 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
-				</div>
+				{
+					heroImage && (
+						<div class="hero-image">
+							<img width={1020} height={510} src={heroImage} alt="" />
+							{heroImageCredit && <p class="credit">Image: {heroImageCredit}</p>}
+						</div>
+					)
+				}
 				<div class="prose">
 					<div class="title">
+						<div class="kicker">
+							<a href={'/category/' + category + '/'}>{CATEGORIES[category]}</a>
+						</div>
+						<h1>{title}</h1>
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
 									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
+										Updated <FormattedDate date={updatedDate} />
 									</div>
 								)
 							}
 						</div>
-						<h1>{title}</h1>
 						<hr />
 					</div>
 					<slot />
