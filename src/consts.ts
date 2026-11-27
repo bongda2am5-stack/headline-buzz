@@ -6,9 +6,9 @@ export const SITE_DESCRIPTION =
 export const CONTACT_EMAIL = "biz.niri@gmail.com";
 
 export const CATEGORIES: Record<string, string> = {
-	sports: "Sports",
-	"tv-streaming": "TV & Streaming",
-	celebrity: "Celebrity",
 	"crime-justice": "Crime & Justice",
 	"scam-alerts": "Scam Alert",
+	sports: "Sports",
+	celebrity: "Celebrity",
+	"tv-streaming": "TV & Streaming",
 };
