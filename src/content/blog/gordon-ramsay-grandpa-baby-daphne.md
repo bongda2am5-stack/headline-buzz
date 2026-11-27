@@ -5,7 +5,7 @@ pubDate: 2026-11-27
 category: "celebrity"
 tags: ["gordon-ramsay", "holly-ramsay", "adam-peaty", "celebrity-baby", "daphne"]
 heroImage: "/images/gordon-ramsay-grandpa-baby-daphne-01.jpg"
-heroImageCredit: "Oleskandra Biliak / Pexels"
+heroImageCredit: "Dave Pullig / Wikimedia Commons (CC BY 2.0)"
 draft: false
 ---
 
@@ -13,7 +13,7 @@ Gordon Ramsay has a new title, and it might be his favourite one yet: grandpa. T
 
 ![Newborn baby's tiny feet resting on a soft blanket](/images/gordon-ramsay-grandpa-baby-daphne-01.jpg)
 
-*Photo: Oleskandra Biliak / Pexels*
+*Photo: Dave Pullig / Wikimedia Commons (CC BY 2.0)*
 
 Holly, 26, shared the news in an Instagram post on Thursday, writing: "Daphne June Ramsay-Peaty, Welcome to the World. You'll forever be our beautiful baby girl and George's baby sister. Thank you to all the Doctors, Nurses and Midwives who made sure we were safe, healthy and happy — we will forever be grateful."
 
