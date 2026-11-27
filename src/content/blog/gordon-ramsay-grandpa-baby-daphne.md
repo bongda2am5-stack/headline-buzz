@@ -11,7 +11,7 @@ draft: false
 
 Gordon Ramsay has a new title, and it might be his favourite one yet: grandpa. The celebrity chef's daughter Holly Ramsay-Peaty gave birth to a baby girl on Wednesday, November 25, and the family announced the happy news themselves on Instagram on Thanksgiving Day, November 26. The baby's name is Daphne June Ramsay-Peaty, and she is the first grandchild for Gordon and his wife Tana.
 
-![Newborn baby's tiny feet resting on a soft blanket](/images/gordon-ramsay-grandpa-baby-daphne-01.jpg)
+![Gordon Ramsay in a white chef's coat](/images/gordon-ramsay-grandpa-baby-daphne-01.jpg)
 
 *Photo: Dave Pullig / Wikimedia Commons (CC BY 2.0)*
 
