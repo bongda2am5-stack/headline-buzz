@@ -9,7 +9,7 @@
 title: "Headline goes here"
 description: "One or two sentences summarizing the news. Shown on the homepage and in Google."
 pubDate: 2026-11-26
-category: "sports" # sports | tv-streaming | celebrity | crime-justice
+category: "sports" # sports | tv-streaming | celebrity | crime-justice | scam-alerts
 tags: ["example-tag"]
 # heroImage: "/images/example.jpg"
 # heroImageCredit: "Photographer Name / Wikimedia Commons, CC BY-SA 4.0"
