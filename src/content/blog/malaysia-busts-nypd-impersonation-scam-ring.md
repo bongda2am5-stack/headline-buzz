@@ -2,7 +2,7 @@
 title: "Fake NYPD Officers, Real Arrests: How an AI-Powered Scam Ring Targeted Americans From Kuala Lumpur"
 description: "Malaysian police arrested 11 foreigners accused of posing as NYPD officers on video calls to scam victims in the US — with uniforms, AI face-swapping and forged documents. How the scam worked, the red flags, and what to do if you get the call."
 pubDate: 2026-11-28
-category: "crime-justice"
+category: "scam-alerts"
 tags: ["scam alert", "NYPD", "Malaysia", "police impersonation", "AI scam", "fraud"]
 heroImage: "/images/malaysia-busts-nypd-impersonation-scam-ring-01.jpg"
 heroImageCredit: "Headline Buzz"
@@ -19,9 +19,9 @@ The raid was carried out at about 5pm on Tuesday, 24 November, by the Dang Wangi
 
 Those arrested were aged between 22 and 51: four South Africans, three Taiwanese, and one citizen each from Mexico, Zimbabwe, Kenya and India. Police said they are believed to have entered Malaysia as tourists on social visit passes, and that all 11 are believed to have worked as syndicate operators. They have been remanded for four days, from 25 to 28 November, to assist investigations under Sections 420 and 511 of the Penal Code — cheating and attempted cheating.
 
-![A worried man listens to a phone call](/images/malaysia-busts-nypd-impersonation-scam-ring-02.jpg)
+![A young woman looks troubled while using her phone](/images/malaysia-busts-nypd-impersonation-scam-ring-02.jpg)
 
-*Photo: Mikhail Nilov / Pexels*
+*Photo: RDNE Stock project / Pexels*
 
 Police believe the syndicate had been operating since the middle of this year. No number of victims, total amount stolen, or specific payment method demanded has been reported. The investigation continues, and the suspects have not been convicted of any offence.
 
