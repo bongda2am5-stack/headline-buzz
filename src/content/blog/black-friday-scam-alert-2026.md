@@ -2,7 +2,7 @@
 title: "Black Friday 2026: That $49.99 iPad Is a Trap"
 description: "More than 4,000 fake Black Friday shopping sites were registered before the sales even started, and half of Black Friday emails are scams. Here is how the $49.99 iPad trap works — and the ten signs to check before you pay."
 pubDate: 2026-11-27
-category: "crime-justice"
+category: "scam-alerts"
 tags: ["black friday", "scam alert", "online shopping", "fraud", "cybersecurity"]
 heroImage: "/images/black-friday-scam-alert-2026-01.jpg"
 heroImageCredit: "Headline Buzz"
