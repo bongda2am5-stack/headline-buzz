@@ -12,7 +12,7 @@ const blog = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
 		heroImageCredit: z.string().optional(),
-		category: z.enum(["sports", "tv-streaming", "celebrity", "crime-justice"]).default("sports"),
+		category: z.enum(["sports", "tv-streaming", "celebrity", "crime-justice", "scam-alerts"]).default("sports"),
 		tags: z.array(z.string()).default([]),
 		draft: z.boolean().default(false),
 	}),
