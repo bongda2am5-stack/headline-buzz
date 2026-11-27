@@ -2,7 +2,7 @@
 
 export const SITE_TITLE = "Headline Buzz";
 export const SITE_DESCRIPTION =
-	"Sports, TV and streaming, celebrity news and crime and justice, explained clearly with sources you can check.";
+	"Sports, scam alerts, celebrity news and crime and justice, explained clearly with sources you can check.";
 export const CONTACT_EMAIL = "biz.niri@gmail.com";
 
 export const CATEGORIES: Record<string, string> = {
@@ -10,4 +10,5 @@ export const CATEGORIES: Record<string, string> = {
 	"tv-streaming": "TV & Streaming",
 	celebrity: "Celebrity",
 	"crime-justice": "Crime & Justice",
+	"scam-alerts": "Scam Alert",
 };
